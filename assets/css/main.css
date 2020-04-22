@@ -2420,6 +2420,7 @@ input:focus[type="url"], input:focus[type="text"], input:focus[type="email"], in
     .footer-widget .footer-dec {
         color: #dddddd;
         margin-bottom: 30px;
+        padding-right: 30px;
     }
     
     .social-list li {
