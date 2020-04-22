@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Title -->
+<title>Checkout Goetze - Furniture Shop eCommerce HTML Template</title>
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+<!-- CSS Here -->
+   <!--  Venobox.css -->
+   <link rel="stylesheet" href="assets/css/venobox.min.css">
+   <!--  PriceSlider.css -->
+   <link rel="stylesheet" href="assets/css/price-slider-1.12.1.css">
+   <!-- NivoSlider .css -->
+   <link rel="stylesheet" href="assets/css/nivo-slider.css">
+   <!-- Nice Select .css -->
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <!-- Pe Icon 7-stroke .css -->
+   <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
+   <!-- Magnific Popup.css -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!-- Slick Nav.css -->
+   <link rel="stylesheet" href="assets/css/slicknav-1.0.10.min.css">
+   <!-- Animated.css -->
+   <link rel="stylesheet" href="assets/css/animate.min.css">
+   <!-- Owl.carousel.css -->
+   <link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css">
+   <!-- Fontawesome.css -->
+   <link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css">
+   <!-- Bootstrap.css -->
+   <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
+   <!-- Default.css -->
+   <link rel="stylesheet" href="assets/css/default.css">
+   <!-- Style.css -->
+   <link rel="stylesheet" href="assets/css/main.css">
+   <!-- Responsive.css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+   <!-- Jquery -->
+   <script src="assets/js/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+    <!-- Start Header Area -->
+<header>
+    <div class="header-top pt-10 pb-10 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-3">
+                    <div class="header-top-left">
+                        <p class="no-margin">Default Welcome Msg!</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-9">
+                    <ul class="header-top-right text-right">
+                        <li>
+                            <select name="currency" id="currency">
+                                <option value="GBP">GBP</option>
+                                <option value="usd">USD</option>
+                                <option value="euro">Euro</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select name="lan" id="lan">
+                                <option value="GBP">English</option>
+                                <option value="1">Arabic</option>
+                                <option value="2">Bangla</option>
+                            </select>
+                        </li>
+                        <li><a href="my-account.html"><i class="fas fa-user"></i>My Account</a></li>
+                        <li><a href="wishlist.html"><i class="fas fa-heart"></i>My Wishlist</a></li>
+                        <li><a href="login_register.html"><i class="fas fa-unlock"></i>Sign In</a></li>
+                        <li><a href="checkout.html"><i class="fas fa-share-square"></i>Check Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="mega-wrapper header-wrapper position-relative">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-6">
+                        <div class="site-logo">
+                            <a href="index.html"><img src="assets/img/site-logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-6 d-block d-md-none static">
+                        <div class="show-mobile-menu"></div>
+                    </div>
+                    <div class="col-md-7 static d-none d-md-block">
+                        <nav class="main-menu text-center" id="mobile-menu">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a>
+                                    <ul class="submenu">
+                                        <li><a href="index.html">Home Version 1</a></li>
+                                        <li><a href="index-2.html">Home Version 2</a></li>
+                                        <li><a href="index-3.html">Home Version 3</a></li>
+                                        <li><a href="index-4.html">Home Version 4</a></li>
+                                        <li><a href="index-5.html">Home Version 5</a></li>
+                                        <li><a href="index-6.html">Home Version 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="static"><a href="shop.html">shop</a>
+                                    <ul class="row mega-menu">
+                                        <div class="col-md-3">
+                                            <li class="mega-menu-title"><a href="javascript:void(0)">shop Page</a>
+                                                <ul class="mega-menu-inner">
+                                                    <li><a href="shop.html">shop left sidebar</a></li>
+                                                    <li><a href="shop-right-side.html">shop right sidebar</a></li>
+                                                    <li><a href="shop-list.html">shop List</a></li>
+                                                    <li><a href="shop-list-right-side.html">shop List right sidebar</a></li>
+                                                    <li><a href="shop-details.html">product details</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <li class="mega-menu-title"><a href="javascript:void(0)">shop other Page</a>
+                                                <ul class="mega-menu-inner">
+                                                    <li><a href="cart.html">shopping Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="login_register.html">Login &amp; Register</a></li>
+                                                    <li><a href="my-account.html">My Account</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mega-menu-banner">
+                                                <a href="#"><img src="assets/img/mega-menu/shop-banner.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="static"><a href="#">pages</a>
+                                    <ul class="row mega-menu">
+                                        <div class="col-md-3">
+                                            <li class="mega-menu-title"><a href="javascript:void(0)">column One</a>
+                                                <ul class="mega-menu-inner">
+                                                    <li><a href="about.html">About Us</a></li>
+                                                    <li><a href="blog.html">Blog Page</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <li class="mega-menu-title"><a href="javascript:void(0)">Column Two</a>
+                                                <ul class="mega-menu-inner">
+                                                    <li><a href="cart.html">shopping Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <li class="mega-menu-title"><a href="javascript:void(0)">Column Three</a>
+                                                <ul class="mega-menu-inner">
+                                                    <li><a href="my-account.html">My Account</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="404.html">404 Error</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="mega-menu-banner">
+                                                <a href="#"><img src="assets/img/mega-menu/page-banner.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">blog</a>
+                                    <ul class="submenu">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-2 d-none d-md-block">
+                        <div class="bottom-header-right text-right">
+                            <ul>
+                                <li class="search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a>
+                                    <div class="search-form">
+                                        <input type="search" placeholder="Search..">
+                                        <button type="button"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </li>
+                                <li class="cart"><a href="javascript:void(0)"><i class="fas fa-shopping-cart"></i>
+                                        <span class="num">2</span>
+                                    </a>
+                                    <div class="mini-cart">
+                                        <div class="mini-wrapper">
+                                            <div class="mini-cart-product">
+                                                <div class="single-cart-product mb-20">
+                                                    <div class="mini-cart-img">
+                                                        <a class="img" href="shop-details.html"><img src="assets/img/mini-cart/1.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="mini-cart-text">
+                                                        <a class="title" href="shop-details.html">Printed Dress</a>
+                                                        <span class="details">S, Orange</span>
+                                                        <span class="price">1 x £ 16.00</span>
+                                                        <a href="#" class="remove"><i class="fas fa-times"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="single-cart-product mb-20">
+                                                    <div class="mini-cart-img">
+                                                        <a class="img" href="shop-details.html"><img src="assets/img/mini-cart/2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="mini-cart-text">
+                                                        <a class="title" href="shop-details.html">Printed Dress</a>
+                                                        <span class="details">S, Orange</span>
+                                                        <span class="price">1 x £ 16.00</span>
+                                                        <a href="#" class="remove"><i class="fas fa-times"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mini-cart-total">
+                                                <h6>Total</h6>
+                                                <span class="pull-right">£ 86.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="mini-cart-btn text-center">
+                                            <a href="checkout.html" class="cart-btn">Checkout <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- End Header Area -->
+<main>
+    <!-- Start Breadcrumb Area -->
+        <section class="breadcrumb-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                       <div class="breadcrumb-wrapper">
+                            <nav>
+                                <ul class="breadcrumb">
+                                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                                    <li class="active">Shopping Checkout</li>
+                                </ul>
+                            </nav>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Breadcrumb Area -->
+    <!-- Start Cart Area -->
+        <section class="cart-area pt-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cart-title mb-30">
+                            <h5>Procced to Checkout </h5>
+                        </div>
+                        <!-- login collapse -->
+                        <div class="login-collapse">
+                            <div id="login-accordion">
+                                <div class="card mb-30">
+                                  <div class="card-header" id="login-heading">
+                                    <h5> Returning customer? 
+                                      <button class="" data-toggle="collapse" data-target="#login">
+                                        Click here to login
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="login" class="collapse" data-parent="#login-accordion">
+                                    <div class="card-body">
+                                      <div class="login-info">
+                                          <p class="no-margin">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est sit amet ipsum luctus.</p>
+                                          <div class="login-form">
+                                              <form action="#">
+                                                <label for="name">Username or email  <span class="required">*</span></label>
+                                                  <input type="text" id="name">
+                                                <label for="pass">Password <span class="required">*</span></label>
+                                                  <input type="password" id="pass">
+                                                  <input type="submit" class="btn" value="login">
+                                                  <label class="checkbox my-auto"><input type="checkbox">Remember me</label>
+                                              </form>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                                             
+                              </div>
+                        </div>
+                        <!-- coupon collapse -->
+                        <div class="coupon-collapse">
+                            <div id="coupon-accordion">
+                                <div class="card mb-30">
+                                  <div class="card-header" id="coupon-heading">
+                                    <h5> Have a coupon?  
+                                      <button class="" data-toggle="collapse" data-target="#coupon">
+                                        Click here to enter your code
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="coupon" class="collapse" data-parent="#coupon-accordion">
+                                    <div class="card-body">
+                                      <div class="coupon-info">
+                                          <input type="text" placeholder="Coupon code">
+                                          <input class="btn" type="submit" value="Apply coupon">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                                             
+                              </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="billing-details mb-30">
+                                    <div class="billing-title">
+                                        <h5>Billing Details</h5>
+                                    </div>
+                                    <form action="#" class="billing-form">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="Fname">First Name  <span class="required">*</span></label>
+                                                    <input id="Fname" type="text" placeholder="First Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="Lname">Last Name  <span class="required">*</span></label>
+                                                    <input id="Lname" type="text" placeholder="Lirst Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-element">
+                                                    <label for="Cname">Company</label>
+                                                    <input id="Cname" type="text" placeholder="Company Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-element">
+                                                    <label for="address">Address <span class="required">*</span></label>
+                                                    <input id="address" type="text" placeholder="Street Address">
+                                                    <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-element">
+                                                    <label for="town">Town / City <span class="required">*</span></label>
+                                                    <input id="town" type="text" placeholder="Town / City">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-element">
+                                                    <label for="country">Country  <span class="required">*</span></label>
+                                                    <select name="country" id="country">
+                                                        <option value="01">Bangladesh</option>
+                                                        <option value="01">Algeria</option>
+                                                        <option value="01">United State</option>
+                                                        <option value="01">United Kingdom</option>
+                                                        <option value="01">Canada</option>
+                                                    </select> 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="Cstate">State / County  <span class="required">*</span></label> 
+                                                    <input id="Cstate" type="text" placeholder="State / County">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="zip">Postcode / Zip <span class="required">*</span></label> 
+                                                    <input id="zip" type="text" placeholder="Postcode / Zip">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="email">Email Address <span class="required">*</span></label> 
+                                                    <input id="email" type="email" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-element">
+                                                    <label for="phone">Phone <span class="required">*</span></label> 
+                                                    <input id="phone" type="tel" placeholder="Phone">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <!-- Create Account -->
+                                                <div class="account-collapse">
+                                                    <div id="account-accordion">
+                                                        <div class="card mb-30">
+                                                        <div class="card-header" id="account-heading">
+                                                            <label class="checkbox"><input class="" data-toggle="collapse" type="checkbox" data-target="#create-account">Create an account?</label>
+                                                        </div>
+                                                    
+                                                        <div id="create-account" class="collapse" data-parent="#account-accordion">
+                                                            <div class="card-body">
+                                                                <p class="no-margin">Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+                                                            <div class="account-info">
+                                                               <div class="form-element">
+                                                                <label for="phone2">Phone <span class="required">*</span></label> 
+                                                                <input id="phone2" type="tel" placeholder="Phone">
+                                                               </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <!-- Create Account -->
+                                                <div class="shipping-collapse">
+                                                    <div id="shipping-accordion">
+                                                        <div class="card mb-30">
+                                                        <div class="card-header" id="shipping-heading">
+                                                            <label class="checkbox"><input class="" data-toggle="collapse" type="checkbox" data-target="#shipping-account">Ship to a different address? </label>
+                                                        </div>
+                                                    
+                                                        <div id="shipping-account" class="collapse" data-parent="#shipping-accordion">
+                                                            <div class="card-body">
+                                                                <div class="shipping-form">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="Fname2">First Name  <span class="required">*</span></label>
+                                                                                <input id="Fname2" type="text" placeholder="First Name">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="Lname2">Last Name  <span class="required">*</span></label>
+                                                                                <input id="Lname2" type="text" placeholder="Lirst Name">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <div class="form-element">
+                                                                                <label for="Cname2">Company</label>
+                                                                                <input id="Cname2" type="text" placeholder="Company Name">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <div class="form-element">
+                                                                                <label for="address2">Address <span class="required">*</span></label>
+                                                                                <input id="address2" type="text" placeholder="Street Address">
+                                                                                <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <div class="form-element">
+                                                                                <label for="town2">Town / City <span class="required">*</span></label>
+                                                                                <input id="town2" type="text" placeholder="Town / City">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <div class="form-element">
+                                                                                <label for="country2">Country  <span class="required">*</span></label>
+                                                                                <select name="country" id="country2">
+                                                                                    <option value="01">Bangladesh</option>
+                                                                                    <option value="01">Algeria</option>
+                                                                                    <option value="01">United State</option>
+                                                                                    <option value="01">United Kingdom</option>
+                                                                                    <option value="01">Canada</option>
+                                                                                </select> 
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="Cstate2">State / County  <span class="required">*</span></label> 
+                                                                                <input id="Cstate2" type="text" placeholder="State / County">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="zip2">Postcode / Zip <span class="required">*</span></label> 
+                                                                                <input id="zip2" type="text" placeholder="Postcode / Zip">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="email2">Email Address <span class="required">*</span></label> 
+                                                                                <input id="email2" type="email" placeholder="Email Address">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-element">
+                                                                                <label for="phone3">Phone <span class="required">*</span></label> 
+                                                                                <input id="phone3" type="tel" placeholder="Phone">
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                              </div>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="place-order bg-light mb-40">
+                                    <div class="place-order-title">
+                                        <h5>Your order</h5>
+                                    </div>
+                                    <div class="place-order-table table-responsive">
+                                        <table class="table m-0">
+                                            <thead>
+                                                <tr >
+                                                    <th class="border-top-0">Your order</th>
+                                                    <th class="border-top-0">Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Vestibulum suscipit × 1</td>
+                                                    <td>£165.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Vestibulum dictum magna	× 1</td>
+                                                    <td>£50.00</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <th>Cart Subtotal</th>
+                                                    <td>£215.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Shipping</th>
+                                                    <td>
+                                                        <ul>
+                                                            <li class="checkbox">
+                                                                <input type="radio"> Flat Rate: 
+                                                                <span class="amount">£7.00</span>
+                                                            </li>
+                                                            <li class="checkbox">
+                                                                <input type="radio"> Free Shipping
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Order Total</th>
+                                                    <td><strong>£215.00</strong></td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                    <div class="payment-method mt-20">
+                                        <div id="payment-accordion">
+                                            <div class="card mb-20">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false">
+                                                            Direct Bank Transfer
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                          
+                                                <div id="collapseOne" class="collapse" data-parent="#payment-accordion">
+                                                    <div class="card-body">
+                                                        <p class="no-margin">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card mb-20">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button class="" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false">
+                                                            Cheque Payment
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                          
+                                                <div id="collapseTwo" class="collapse" data-parent="#payment-accordion">
+                                                    <div class="card-body">
+                                                        <p class="no-margin">Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card mb-20">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button class="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false">
+                                                            PayPal <a href="#"><img src="assets/img/paypal.png" alt=""></a>
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                          
+                                                <div id="collapseThree" class="collapse" data-parent="#payment-accordion">
+                                                    <div class="card-body">
+                                                        <p class="no-margin">Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="order-btn mt-30">
+                                        <input type="submit" value="Place Order" class="btn w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    <!-- End Cart Area -->
+    
+    <!-- Start Brand Area -->
+        <section class="brand-area gray-bg pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="brand-carousel owl-carousel">
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/1.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/2.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/3.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/4.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/5.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/6.jpg" alt=""></a>
+                            </div>
+                            <div class="single-brand-item">
+                                <a href="#"><img src="assets/img/brand/7.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Brand Area -->
+</main>
+<footer class="footer-area black-bg">
+    <!-- Footer Top -->
+    <div class="footer-top pt-30 pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>Categories</h5>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="#">Bedroom</a></li>
+                            <li><a href="#">Livingroom</a></li>
+                            <li><a href="#">Lighting</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>Information</h5>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="#">specials</a></li>
+                            <li><a href="#">new product</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Our Stores</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>My account</h5>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="#">My order</a></li>
+                            <li><a href="#">My Credit slip</a></li>
+                            <li><a href="#">My Address</a></li>
+                            <li><a href="#">My personal Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>EXTRAS</h5>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="#">Order &amp; Returns</a></li>
+                            <li><a href="#">search Terms</a></li>
+                            <li><a href="#">Advance Search</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Group Sales</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Middle -->
+    <div class="footer-middle pt-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="footer-widget right-border mb-30">
+                        <div class="footer-logo mb-15">
+                            <a href="index.html"><img src="assets/img/logo_footer.png" alt=""></a>
+                        </div>
+                        <p class="no-margin footer-dec">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit.</p>
+                        <ul class="social-list">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>CONTACT US</h5>
+                        </div>
+                        <ul class="footer-contact-info">
+                            <li><i class="fas fa-map-marker"></i> 
+                                <span>8901 Marmora Road, Glasgow D04 </span> 
+                                <span> 89 GR, New York</span>
+                            </li>
+                            <li><i class="fas fa-phone"></i>
+                                <span>Telephone: <a href="tel:+18665403229">(+1) 866-540-3229</a> </span>
+                                <span>Fax: <a href="tel:+18665403229">(+1) 866-540-3229</a> </span>
+                            </li>
+                            <li><i class="far fa-envelope"></i>
+                                <span>Email: <a href="mailto:admin@Bootexpert.com">admin@Bootexpert.com</a></span>
+                            </li>
+                            <li><i class="fas fa-globe"></i>
+                                <span>website: <a href="www.example.com">www.example.com</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget mb-30">
+                        <div class="widget-title">
+                            <h5>OPENING TIME</h5>
+                        </div>
+                        <ul class="operational-time">
+                            <li>
+                                <span>Monday - Friday</span>
+                                <span class="pull-right">9:00 - 22:00</span>
+                            </li>
+                            <li>
+                                <span>Saturday</span>
+                                <span class="pull-right">10:00 - 24:00</span>
+                            </li>
+                            <li>
+                                <span>Sunday</span>
+                                <span class="pull-right">10:00 - 24:00</span>
+                            </li>
+                        </ul>
+                        <div class="payment-way">
+                            <a href="#"><img src="assets/img/paypal.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright Area -->
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-text">
+                        <span>Copyright <a href="#">Goetze</a>  All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+   <!-- Popper.js -->
+   <script src="assets/js/popper.min.js"></script>
+   <!-- Bootstrap.js -->
+   <script src="assets/js/bootstrap-4.3.1.min.js"></script>
+   <!-- Plugin.js -->
+   <script src="assets/js/plugins.js"></script>
+   <!-- Modernizr.js -->
+   <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+   <!-- Owl.Carousel.js -->
+   <script src="assets/js/vendor/owl.carousel-2.3.4.min.js"></script>
+   <!-- Waypoints.js -->
+   <script src="assets/js/vendor/waypoints-4.0.1.min.js"></script>
+   <!-- Wow.js -->
+   <script src="assets/js/vendor/wow-1.1.3.min.js"></script>
+   <!-- Slick Nav.js -->
+   <script src="assets/js/vendor/slicknav-1.0.10.min.js"></script>
+   <!-- Scroll Up.js -->
+   <script src="assets/js/vendor/scrollUp-2.4.1.min.js"></script>
+   <!-- MagnificPopup.js -->
+   <script src="assets/js/vendor/magnific-popup-1.1.0.min.js"></script>
+   <!-- NivoSlider.js -->
+   <script src="assets/js/vendor/jquery.nivo.slider.pack.js"></script>
+   <!-- Countdown.js -->
+   <script src="assets/js/vendor/countdown-2.2.0.min.js"></script>
+   <!-- PriceSlider.js -->
+   <script src="assets/js/vendor/price-slider-1.12.1.js"></script>
+   <!-- Venobox.js -->
+   <script src="assets/js/vendor/venobox.min.js"></script>
+
+   <!-- Main.js -->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
