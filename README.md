@@ -34,5 +34,4 @@ https://thisistanvir.github.io/Goetze-Furniture-Shop-E-Commerce-HTML5-Template/
    * Product Details Page
    
    
-   
-   ![image](https://user-images.githubusercontent.com/56197895/79541258-4f837680-80ab-11ea-93bf-9198caf73144.png)
+![Goetze - Furniture Shop E-Commerce HTML Template - thisistanvir github io](https://user-images.githubusercontent.com/56197895/79977377-ff981b80-84bf-11ea-90fb-11c95e0fe11e.jpg)
